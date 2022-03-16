@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/issues/(.*)",
+      "destination": "https://comicvine.gamespot.com/api/issues"
+    },
+    {
+      "source": "/api/issue/:match/(.*)",
+      "destination": "https://comicvine.gamespot.com/api/issue/:match"
+    }
+  ]
+}
